@@ -1,5 +1,4 @@
-
-  *{
+*{
     font-family: "Fira Sans", serif;
     /* font-optical-sizing: auto;
     font-style: normal; */
@@ -165,6 +164,7 @@ nav {
   color: rgba(255, 255, 255, 1);
   
 }
+/* vision part */
 .vision-container {
   display: flex;
   margin: 30px 80px ;
