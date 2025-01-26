@@ -1,0 +1,466 @@
+
+  *{
+    font-family: "Fira Sans", serif;
+    /* font-optical-sizing: auto;
+    font-style: normal; */
+    font-variation-settings:
+      "width" 100;
+  }
+
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+  /* shared style  */
+  .secondary-bg {
+background-color: #C6E4D6;
+  }
+  
+  .banner-content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 100px 80px;
+}
+.banner-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(14, 14, 14, 0.5);
+
+}
+
+.banner-description {
+  font-weight: 700;
+  font-size: 56px;
+  color: #0E0E0E;
+}
+
+.btn-banner {
+  background-color: #006A50;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  max-width: 1600px;
+  margin: 10px 80px;
+  text-align:left ;
+  padding: 117 px 60px;
+}
+.banner-profile-pic{
+  width: 400px;
+  height: 300px;
+  padding-top:100px;
+  padding-right: 30px;
+}
+
+  
+/* Nav styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0px 80px;
+}
+
+.btn-primary {
+ 
+ font-weight: 600;
+  font-size: 18px;
+  color: #006A50;
+  padding: 15px 30px;
+  border-radius: 9px;
+  border: 1px solid #006A50;
+}
+
+.nav-title {
+  font-weight:bold ;
+  font-size: 33px; 
+
+}
+
+/* pillar section styles  */
+.pillar-container
+ {
+  display: flex;
+  gap: 24px;
+  margin: 0px 40px;
+} 
+
+.pillar {
+  padding: 24px;
+  border-radius: 16px;
+  color: #0E0E0E;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+ 
+}
+
+.pillar-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+
+}
+.pillar-description {
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  font-size:16px ;
+
+}
+.section-title {
+  font-size:40px ;
+  font-weight:bold ;
+  color: #0E0E0E;
+  margin: 80px 0px 0px 80px;
+ 
+}
+
+.section-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 32px 32px 0px 80px;
+}
+
+.btn-1 {
+  font-weight:600 ;
+  font-size: 16px;
+  background: rgba(84, 144, 245, 1);
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  
+}
+
+.btn-2{
+  font-weight:600 ;
+  font-size: 16px;
+  background: rgba(9, 161, 92, 1);
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  
+}
+.btn-3 {
+  font-weight:600 ;
+  font-size: 16px;
+  background: rgba(255, 194, 57, 1);
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  
+}
+.vision-container {
+  display: flex;
+  margin: 30px 80px ;
+gap: 20px;
+}
+
+.vision-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+ margin: 20px 0px;
+ 
+}
+
+.vision-1 {
+  background-color:rgba(84, 144, 245, 0.2);
+  padding: 32px ;
+  border-radius: 16px;
+  
+  
+}
+.vision-2 {
+  background-color:rgba(198, 228, 214, 1);
+  padding: 32px ;
+  border-radius: 16px;
+ 
+}
+.vision-3 {
+  background-color:rgba(247, 235, 207, 1);
+  padding: 32px ;
+  border-radius: 16px;
+ 
+ 
+}
+.vision-title {
+ margin: 20px 0px 0px 0px;
+}
+.qutes {
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+ 
+  
+  background-image: url('/B11A1--assignment-1/assets/quote-bg.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+   
+}
+.Yunus{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.8);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  
+ 
+}
+.Yunus-Position{
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 48px;
+ 
+}
+.quotes{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.8);
+  padding-top: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+ 
+
+}
+.news-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+ margin: 30px 80px;
+}
+
+.satelite-container{
+  display: flex;
+  gap: 32px;
+  margin: 30px 80px;
+  padding: 48px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.satelite-container-2{
+  display: flex;
+  gap: 32px;
+  margin: 30px 80px;
+  padding: 48px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+
+}
+.satelite-pic {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+
+.satelite-description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  font-weight:400px ;
+
+}
+
+.sat-btn{
+  padding: 13px 26px;
+  background-color:rgba(0, 106, 80, 1) ;
+  font-size:18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  color:rgba(255, 255, 255, 1) ;
+
+}
+.date-sat{
+  word-spacing: 5px;
+}
+
+
+.donate-title {
+  text-align: center;
+}
+.donate-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 88px 18px 88px;
+  text-align: center;
+} 
+
+.btn-amount-containers {
+display: flex;
+margin: 20px 88px 20px 88px;
+gap: 20px;
+
+}
+.btn-amount-containers button:hover{
+  background-color: rgb(174, 133, 176);
+ 
+}
+
+.btn-taka {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8) ;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+padding: 40px ;
+border: none;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+} 
+ 
+.btn-taka-2 {
+
+  background-color: rgba(198, 228, 214, 1);
+ 
+} 
+
+
+.submit {
+  height: 32px;
+  border-radius: 5px;
+  background-color: white;
+  display: block; 
+  width: 100%; 
+  border: none;
+  padding: 20px 40px;
+  margin:20px 124px ;
+  width: 1032px;
+justify-content: space-around;
+}  
+
+.btn-donate-done{
+  margin: 20px 500px ;
+  text-align: center;
+  padding: 13px 26px;
+  background-color:rgba(0, 106, 80, 1) ;
+  font-size:18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  color:rgba(255, 255, 255, 1) ;
+  
+}
+
+.btn-donate-done:hover{
+  background-color: red;
+}
+
+.btn-donate-done:active{
+  background-color: rgb(102, 0, 255);
+  box-shadow: #655713;
+  transform: translateY(2px);
+}
+
+.donation-container {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+
+}
+.donation-container input[type="text"] {
+  width: 100%;
+  max-width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+ border: none;
+}
+.donation-container input[type="text"]::placeholder {
+  color: #aaa;
+ 
+}
+.donation-container button {
+  margin-top: 20px;
+  background-color: #136546;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.donation-container button:hover {
+  background-color: #104f38;
+}
+
+
+.subscription-container {
+  text-align: center;
+}
+.subscription-container input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+.subscription-container button {
+  background-color: #136546;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: -4px;
+}
+.subscription-container button:hover {
+  background-color: #104f38;
+}
+.subscription-container p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+.newsletter-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 88px 18px 88px;
+  text-align: center;
+}
+.newsletter-title {
+  font-size:40px ;
+  font-weight:bold ;
+  color: #0E0E0E;
+  text-align: center;
+}
+.newsletter-container{
+  background-color: rgba(198, 228, 214, 1);
+  padding: 60px 100px;
+margin-left:160px ;
+margin-right: 160px;
+border-radius: 24px;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+.bangladesh{
+
+  text-align: center;
+  color: rgba(14, 14, 14, 1);
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+.images{
+  text-align: center;
+  margin-top: 30px;
+}
