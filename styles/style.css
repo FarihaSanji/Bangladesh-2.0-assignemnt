@@ -168,14 +168,16 @@ nav {
 .vision-container {
   display: flex;
   margin: 30px 80px ;
-gap: 20px;
+  gap: 20px;
 }
 
 .vision-description{
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   font-weight: 400;
- margin: 20px 0px;
+margin-left: 0px;
+margin-right: 30px;
+margin-bottom: 15px;
  
 }
 
@@ -205,11 +207,11 @@ gap: 20px;
 .qutes {
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
   border-radius: 16px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 80px;
+  margin-right: 60px;
  
-  
-  background-image: url('/B11A1--assignment-1/assets/quote-bg.png');
+
+  background-image: url('../assets/quote-bg.png');
   background-repeat: no-repeat;
   background-position: top left;
    
@@ -360,7 +362,7 @@ justify-content: space-around;
   
 }
 
-.btn-donate-done:hover{
+/* .btn-donate-done:hover{
   background-color: red;
 }
 
@@ -368,7 +370,7 @@ justify-content: space-around;
   background-color: rgb(102, 0, 255);
   box-shadow: #655713;
   transform: translateY(2px);
-}
+} */
 
 .donation-container {
   text-align: center;
@@ -399,9 +401,7 @@ justify-content: space-around;
   cursor: pointer;
   font-size: 16px;
 }
-.donation-container button:hover {
-  background-color: #104f38;
-}
+
 
 
 .subscription-container {
@@ -423,9 +423,7 @@ justify-content: space-around;
   cursor: pointer;
   margin-left: -4px;
 }
-.subscription-container button:hover {
-  background-color: #104f38;
-}
+
 .subscription-container p {
   margin-top: 10px;
   font-size: 14px;
@@ -463,4 +461,11 @@ box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 .images{
   text-align: center;
   margin-top: 30px;
+}
+button:hover {
+  background-color: #4f2310;
+}
+button:active {
+  background-color: #82a758;
+  transform: translate(2px);
 }
